@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Descendant Selector</title>
+</head>
+<style>
+	article p{
+		color: purple;
+		background-color: lavender;
+		font-size: 20px;
+	}
+</style>
+<body>
+<article>
+	<p>This gets effected by the styling we apply as it is a child of article element.</p>
+</article>
+<p>This does not get effected because it is neither a direct child nor descendant child.</p>
+<article>
+	<div><p>This gets effected because it is a descendant child of an article element whether it has div or not.</p></div>
+</article>
+</body>
+</html>
