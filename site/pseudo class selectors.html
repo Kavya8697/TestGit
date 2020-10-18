@@ -4,17 +4,58 @@
 	<title>Pseudo Class Selectors</title>
 </head>
 <style>
-	
+header li{
+	list-style: none;
+}
+a:link, a:visited{
+	text-decoration: none;
+	background-color: purple;
+	color: white;
+	border: 1px solid black;
+	display: block;
+	width: 250px;
+	margin-bottom: 1px;
+	text-align: center;
+}
+a:hover, a:active{
+	background-color: red;
+	color: black;
+}
+header li:nth-child(2){
+	font-size: 20px;
+}
+section div:nth-child(even){
+	background-color: blue;
+}
+section div:nth-child(8):hover{
+	color: red;
+	cursor: pointer;
+}
 </style>
 <body>
 <h1>Pseudo Class Selectors</h1>
 
 <header>
 	<ul>
-		<li><a href="https://www.w3schools.com/default.asp">Home</a></li>
-		<li><a href="https://www.w3schools.com/css/default.asp">CSS Tutorial</a></li>
-		<li><a href="https://www.w3schools.com/js/default.asp">JavaScript</a></li>
+		<li><a href="https://www.w3schools.com/default.asp" target="_blank">Home</a></li>
+		<li><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS Tutorial</a></li>
+		<li><a href="https://www.w3schools.com/js/default.asp" target="_blank">JavaScript</a></li>
 	</ul>
 </header>
+<section>
+	<div>DIV 1</div>
+	<div>DIV 2</div>
+	<div>DIV 3</div>
+	<div>DIV 4</div>
+	<div>DIV 5</div>
+	<div>DIV 6</div>
+	<div>DIV 7</div>
+	<div>DIV 8</div>
+	<div>DIV 9</div>
+	<div>DIV 10</div>
+	<div>DIV 11</div>
+	<div>DIV 12</div>
+	<div>DIV 13</div>
+</section>
 </body>
 </html>
