@@ -3,3 +3,14 @@ body {
 	color: #fff;
 	background-color: #61122f;
 }
+#header-nav {
+	background-color: #f6b319;
+	border: 0;
+	border-radius: 0;
+}
+#logo-img {
+	background: url(C:\project\TestGit\site\images/logo.png) no-repeat;
+	width: 150px;
+	height: 150px;
+
+}
