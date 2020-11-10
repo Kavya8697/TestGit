@@ -77,7 +77,7 @@ body {
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 	#logo-img {
-		background: url('../images/restaurant-logo-medium.png') no-repeat;
+		background: url("images/restaurant-logo-medium.png") no-repeat;
 		width: 100px;
 		height: 100px;
 		margin: 5px 5px 5px 0;
