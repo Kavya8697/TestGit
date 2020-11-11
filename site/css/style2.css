@@ -72,6 +72,10 @@ body {
 	clear: both;
 	margin-top: -30px;
 }
+.container .jumbotron {
+	box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F;
+}
 @media (min-width: 1200px) {
 	.jumbotron {
 		background: url('../images/jumbotron_1200.jpg') no-repeat;
@@ -86,12 +90,15 @@ body {
 		margin: 5px 5px 5px 0;
 		}
 	.jumbotron {
-		background: url('../images/jumbotron_992') no-repeat;
+		background: url('../images/992.jpg') no-repeat;
 		height: 558px;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
-
+	.jumbotron {
+		background: url('../images/jumbotron_768.jpg') no-repeat;
+		height: 432px;
+	}
 }
 @media (max-width: 767px) {
 	.navbar-brand {
@@ -133,5 +140,9 @@ body {
 	}
 	#call-btn a span {
 		margin-right: 5px;
+	}
+	.container .jumbotron {
+		margin-top: 30px;
+		padding: 0;
 	}
 }
