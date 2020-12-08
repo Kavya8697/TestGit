@@ -1,1 +1,1 @@
-var string = {"Hello world"};
+var x = "Hello world";
