@@ -1,2 +1,3 @@
-var message = "in global";
-console.log("global: message = " + message);
+var x;
+x=a;
+console.log(x);
