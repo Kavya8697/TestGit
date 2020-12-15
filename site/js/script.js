@@ -1,1 +1,2 @@
-var x = "Hello world";
+var message = "in global";
+console.log("global: message = " + message);
