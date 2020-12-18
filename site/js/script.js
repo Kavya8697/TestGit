@@ -1,4 +1,2 @@
-var x,y;
-x=5;
-y=x;
-console.log(y);
+var message = "in global";
+console.log("global: message = " + message);
